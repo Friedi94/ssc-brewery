@@ -90,6 +90,10 @@
             <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
         <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
+        <dependency>
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
             <scope>runtime</scope>
@@ -120,7 +124,7 @@
         <dependency>
             <groupId>org.webjars</groupId>
             <artifactId>jquery</artifactId>
-            <version>${webjars-jquery.version}</version>
+            <version>2.2.4</version> <!-- Oder eine andere Version innerhalb des unterstützten Bereichs -->
         </dependency>
         <dependency>
             <groupId>org.webjars</groupId>
